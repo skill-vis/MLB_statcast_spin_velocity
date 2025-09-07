@@ -198,6 +198,8 @@ def plot_velocity_spin(all_data):
     plt.tight_layout()
     plt.show()
 
+# statcastからのデータの取得（フォルダ内にファイルが有れば，それを利用）
 all_data_202509 = fetch_and_process_data("statcast_data_202509")
 
+# 球速と回転寿のグラフを，上記all_data_202509を利用し描画
 plot_velocity_spin(all_data_202509)
