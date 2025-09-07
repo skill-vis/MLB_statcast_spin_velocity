@@ -1,7 +1,7 @@
 # MLB_statcast_spin_velocity
 日本人投手のファストボールと球速と回転数の全投球分布の統計
 
-**stadtcast.py**について
+## stadtcast.pyについて
 適宜，関数内で変更し，自分仕様にしていただきたい．
 
 最後の
@@ -27,4 +27,9 @@ plot_velocity_spin(all_data_202509)
 <img width="2211" height="800" alt="Figure_comp" src="https://github.com/user-attachments/assets/6501be7c-4b4e-4ee6-8f36-ca8b8ca6a304" />
 
 **注意**：　同時にこの２つのグラフを描くような仕様ではなく，fetch_and_process_data関数を少し書き換える必要がある．
+
+## stadtcast_ellips.pyについて
+stadtcast.pyで作られたデータから，１つまたは２つのデータを与えて，PCAの楕円と傾きを描画（２つの場合は比較）する．
+
+<img width="1200" height="800" alt="Figure_comp2" src="https://github.com/user-attachments/assets/d1137e85-218f-4dcb-943d-650983427132" />
 
