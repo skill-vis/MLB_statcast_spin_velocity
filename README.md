@@ -20,3 +20,7 @@ all_data_202506 = fetch_and_process_data("statcast_data_202506", "2025-06-31")
 plot_velocity_spin(all_data_202509)
 
 でグラフを描く．
+
+以下は，これを使って描いた２つのグラフをさらに加工
+
+<img width="2211" height="800" alt="Figure_comp" src="https://github.com/user-attachments/assets/6501be7c-4b4e-4ee6-8f36-ca8b8ca6a304" />
