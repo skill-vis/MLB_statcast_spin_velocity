@@ -1,6 +1,8 @@
 # MLB_statcast_spin_velocity
 日本人投手のファストボールと球速と回転数の全投球分布の統計
 
+適宜，関数内で変更し，自分仕様にしていただきたい．
+
 最後の
 
 all_data_202509 = fetch_and_process_data("statcast_data_202509")
