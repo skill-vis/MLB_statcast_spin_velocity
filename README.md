@@ -24,3 +24,5 @@ plot_velocity_spin(all_data_202509)
 以下は，これを使って描いた２つのグラフをさらに加工
 
 <img width="2211" height="800" alt="Figure_comp" src="https://github.com/user-attachments/assets/6501be7c-4b4e-4ee6-8f36-ca8b8ca6a304" />
+
+**注意**：　同時にこの２つのグラフを描くような仕様ではなく，fetch_and_process_data関数を少し書き換える必要がある．
