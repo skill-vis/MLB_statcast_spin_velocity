@@ -43,3 +43,4 @@ plot_velocity_spin_comparison(all_data_202509, all_data_202506)
 
 <img width="1200" height="800" alt="Figure_comp2" src="https://github.com/user-attachments/assets/d1137e85-218f-4dcb-943d-650983427132" />
 
+2023年の大谷投手と比較すると，もはや別人．
