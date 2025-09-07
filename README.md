@@ -17,7 +17,6 @@ end_date引数：データ取得の終了日 (YYYY-MM-DD形式)。指定がな�
 例
 all_data_202506 = fetch_and_process_data("statcast_data_202506", "2025-06-31")
 
------
 plot_velocity_spin(all_data_202509)
 
 でグラフを描く．
@@ -30,6 +29,15 @@ plot_velocity_spin(all_data_202509)
 
 ## stadtcast_ellips.pyについて
 stadtcast.pyで作られたデータから，１つまたは２つのデータを与えて，PCAの楕円と傾きを描画（２つの場合は比較）する．
+
+```
+# set data
+all_data_202509 = process_data_ff('statcast_data_202509')
+all_data_202506 = process_data_ff('statcast_data_202506')
+
+# # 既存のデータを使用して比較プロット
+plot_velocity_spin_comparison(all_data_202509, all_data_202506)
+```
 
 <img width="1200" height="800" alt="Figure_comp2" src="https://github.com/user-attachments/assets/d1137e85-218f-4dcb-943d-650983427132" />
 
