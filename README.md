@@ -1,0 +1,2 @@
+# MLB_statcast_spin_velocity
+日本人投手のファストボールと球速と回転数の全投球分布の統計
